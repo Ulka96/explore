@@ -1,0 +1,227 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+header {
+  /* margin: 141px 133px; */
+  background-color: #fff;
+  border-radius: 24px;
+}
+
+h1 {
+  font-size: 96px;
+  font-weight: 900;
+}
+
+.pics {
+  display: grid;
+  grid-template-columns: 449px 702px 483px;
+  grid-template-rows: 420px 400px 160px;
+}
+
+.pic {
+  border-radius: 18px;
+}
+
+.pic-1 {
+  background-image: url(./images/image\ 15\ \(1\).png);
+  grid-column-start: 1;
+  grid-column-end: 3;
+  width: 1152px;
+  height: 371px;
+  margin-top: 40px;
+  background-repeat: no-repeat;
+}
+
+.pic-2 {
+  background-image: url(./images/image\ 14\ \(1\).png);
+  grid-column-start: 3;
+  grid-column-end: 4;
+  width: 483px;
+  height: 859px;
+  background-size: cover;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.pic-3 {
+  background-image: url(./images/image\ 16\ \(1\).png);
+  grid-row-start: 2;
+  grid-row-end: 3;
+  width: 409px;
+  height: 445px;
+  margin-top: 43px;
+  margin-right: 40px;
+}
+
+.pic-4 {
+  background-image: url(./images/image\ 17\ \(1\).png);
+  grid-column-start: 2;
+  grid-column-end: 3;
+  background-size: cover;
+  width: 702px;
+  height: 331px;
+  margin-right: 80px;
+  margin-top: 43px;
+}
+
+.pic-5 {
+  background-color: #ffc700;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  width: 702px;
+  height: 77px;
+  border-radius: 8px;
+  padding: 23px 30px;
+}
+
+.btn {
+  background-color: #ffc700;
+  border: none;
+  text-decoration: none;
+  font-family: inherit;
+  text-transform: uppercase;
+  display: flex;
+  gap: 390px;
+  cursor: pointer;
+  align-items: baseline;
+}
+
+.btn p {
+  font-size: 20px;
+  font-weight: 900;
+  color: #000000;
+}
+
+.btn i {
+  width: 24px;
+  height: 24px;
+}
+
+.second-part {
+  margin: o 133px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(4, 405px);
+  /* grid-template-rows: repeat(2, 405px 80px); */
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.pr {
+  border-radius: 8px;
+}
+
+.pr-1 {
+  background-image: url(./images/tshirt.png);
+  width: 405px;
+  height: 405px;
+}
+
+.pr-2 {
+  background-image: url(./images/Jogger\ \(1\).png);
+}
+
+.pr-3 {
+  background-image: url(./images/hoodie.png);
+}
+
+.pr-4 {
+  background-image: url(./images/hat.png);
+}
+
+.info {
+  width: 405px;
+  height: 79px;
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 20px;
+}
+
+.info h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.info p {
+  color: #1d1d1d;
+  font-size: 16px;
+  font-weight: 700;
+  opacity: 0.5;
+  margin-top: 10px;
+}
+
+.info h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1d1d1d;
+}
+
+.info-1 h2 {
+  margin-left: 44px;
+}
+
+.info-2 h2 {
+  margin-left: 78px;
+}
+
+.info-3 h2 {
+  margin-left: 54px;
+}
+
+.info-4 h2 {
+  margin-left: 183px;
+}
+
+.btn-2 {
+  background-color: #1d1d1d;
+  color: #ffffff;
+  border-radius: 8px;
+  border: none;
+  display: flex;
+  font-family: inherit;
+  text-transform: uppercase;
+  width: 829px;
+  height: 77px;
+  gap: 549px;
+  justify-content: center;
+  align-items: center;
+  padding: 26.5px 30px;
+  align-items: baseline;
+  cursor: pointer;
+}
+
+.btn-2 p {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.btn-2 i {
+  width: 24px;
+  height: 24px;
+}
+
+.dot {
+  font-size: 96px;
+  font-weight: 900;
+  color: #ffc700;
+}
