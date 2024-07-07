@@ -137,42 +137,42 @@ const getTotalPrice = () => {
 }
 
 const displayCartItems = () => {
-    cart2.forEach((cartItem) => {
-        cartItemList.innerHTML += `<div class="flex gap-5 cart__item">
-        <div class="cart__item__image">
-            <img src="./images/image 19 (1).png" alt="t-shirt">
-        </div>
-        <div>                                     
-            <div class="mb-[125px] cart__item__info">
-                <div class="mb-[20px]">
+  cart2.forEach((cartItem) => {
+  cartItemList.innerHTML += `<div class="flex gap-5 cart__item">
+  <div class="cart__item__image">
+    <img src="./images/image 19 (1).png" alt="t-shirt">
+  </div>
+<div>                                     
+  <div class="mb-[125px] cart__item__info">
+    <div class="mb-[20px]">
                                                          
-                    <h3 class="text-[20px] font-bold mb-[10px] cart__item__name">Boxy fit Pop Smoke T-shirt</h3>
-                    <p class="text-[16px] font-bold text-[#1d1d1d] cart__item__category">T-shirts</p> 
-                </div>
+      <h3 class="text-[20px] font-bold mb-[10px] cart__item__name">Boxy fit Pop Smoke T-shirt</h3>
+      <p class="text-[16px] font-bold text-[#1d1d1d] cart__item__category">T-shirts</p> 
+    </div>
                                             
-                <div class="flex gap-[20px] mb-[20px] cart__item__description">
-                    <button class="h-[30px] w-[30px] border-2 border-[#1d1d1d] bg-[#1d1d1d] rounded-[50%] cart__item__color"></button>
-                    <button class="h-[30px] w-[48px] border-2 border-[#1d1d1d] bg-[#1d1d1d] rounded-[15px] text-[12px] font-bold text-[#fff] cart__item__size" >S</button>
-                </div>
+  <div class="flex gap-[20px] mb-[20px] cart__item__description">
+      <button class="h-[30px] w-[30px] border-2 border-[#1d1d1d] bg-[#1d1d1d] rounded-[50%] cart__item__color"></button>
+      <button class="h-[30px] w-[48px] border-2 border-[#1d1d1d] bg-[#1d1d1d] rounded-[15px] text-[12px] font-bold text-[#fff] cart__item__size" >S</button>
+  </div>
                         
-                 <div class="cart__item__price">
-                    <p class="text-[24px] font-medium text-[#1d1d1d]">2 x 13.99 USD | <span class="font-bold">27.98 USD</span> </p>
-                </div>
-            </div> 
-             <div>                  
-                 <div class="flex gap-4 mb-[20px] cart__counter">
-                    <button class="text-[24px] font-bold">-</button>
-                    <p class="text-[24px] font-bold">2</p>
-                    <button class="text-[24px] font-bold">+</button>
-                </div>
-                <button class="flex justify-between py-[11.5px] px-[16px] border-2 rounded-[8px] border-[#1d1d1d] bg-[#1d1d1d] gap-[70px] remove__btn">
-                    <p class="text-[#fff] text-[16px] font-black " >REMOVE</p>
-                    <i class="fa-solid fa-minus text-[#1d1d1d] border-2 border-white bg-[#ffff] rounded-[50%] h-[20px] w-[20px]"></i>
-                </button>
-            </div>
-        </div>
-    </div>`
+  <div class="cart__item__price">
+      <p class="text-[24px] font-medium text-[#1d1d1d]">2 x 13.99 USD | <span class="font-bold">27.98 USD</span> </p>
+  </div>
+  </div>
+
+  <div>                  
+  <div class="flex gap-4 mb-[20px] cart__counter">
+    <button class="text-[24px] font-bold">-</button>
+    <p class="text-[24px] font-bold">2</p>
+    <button class="text-[24px] font-bold">+</button>
+  </div>
+    <button class="flex justify-between py-[11.5px] px-[16px] border-2 rounded-[8px] border-[#1d1d1d] bg-[#1d1d1d] gap-[70px] remove__btn">
+      <p class="text-[#fff] text-[16px] font-black " >REMOVE</p>
+      <i class="fa-solid fa-minus text-[#1d1d1d] border-2 border-white bg-[#ffff] rounded-[50%] h-[20px] w-[20px]"></i>
+    </button>
+  </div>
+  </div>
+  </div>`
     });
-    
 };
 
